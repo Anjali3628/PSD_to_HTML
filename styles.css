@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1350px;
+}
+.section-1 .header{
+    /* background-color: lightblue; */
+    background-color: white;
+    display: flex;
+    line-height: 50px;
+}
+.section-1 .header .logo{
+    float: left;
+    display: flex;
+}
+.section-1 .header .logo img{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+}
+.section-1 .header .lists ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.section-1 .header .lists li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.section-1 .header .lists{
+    margin-left: 500px;
+}
+.section-1 .header .lists li span .search{
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #d7d2db;
+}
+.section-1 .header .lists li span .login{
+    border-radius: 30px;
+    padding: 7px;
+    background-color: #BCFFA7;
+    font-size: 12px;
+}
+.section-1 .header .lists li span .carts{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+}
+.section-1 .header .lists li span .heart{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+
+.section-2{
+    background-image: url(./image1.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.section-2 .sectionTwo{
+    color: white;
+    padding-left: 75px;
+    padding-bottom: 220px;
+}
+.section-2 .sectionTwo h4{
+    padding-top: 250px;
+    font-weight: 100;
+    font-size: large;
+    letter-spacing: 2px;
+    padding-bottom: 26px;
+}
+.section-2 .sectionTwo h2{
+    font-size: 42px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+}
+.section-2 .sectionTwo button{
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.section-2 .sectionTwo button a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.section-3{
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.section-3 .sectionThree .heading .row{
+    display: flex;
+}
+.section-3 .sectionThree .heading .row .col-1{
+    float: left;
+    width: 50%;
+    display: flex;
+}
+.section-3 .sectionThree .heading .row .col-1 h4{
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section-3 .sectionThree .heading .row .col-2{
+    width: 50%;
+    margin-left: 1100px;
+}
+.section-3 .sectionThree .heading .row .col-2 button{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.section-3 .sectionThree .heading .row .col-2 button a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.section-3 .sectionThree .product .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section-3 .sectionThree .product .row .col{
+    width: 25%;
+}
+.section-3 .sectionThree .product .row .col .card{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:1px solid lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.section-3 .sectionThree .product .row .col .card img{
+    padding-left: 10px;
+}
+.section-3 .sectionThree .product .row .col .card h4{
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 16px;
+}
+.section-3 .sectionThree .product .row .col .card .star{
+    padding-left: 15px;
+}
+.section-3 .sectionThree .product .row .col .card button{
+    background-color: lightgreen;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.section-3 .sectionThree .product .row .col .card button a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+
+
+.section-4{
+    background-image: url(./background.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+
+}
+.section-4 .sectionFour .heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.section-4 .sectionFour .heading h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 1.5px;
+    font-size: 26px;
+}
+.section-4 .sectionFour .row{
+    display: flex;
+    padding-top: 50px;
+}
+.section-4 .sectionFour .row .col-3{
+    width: 50%;
+    background-image: url(./offer1.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
+.section-4 .sectionFour .row .col-3 h4{
+    padding-top: 380px;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.section-4 .sectionFour .row .col-3 h3{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    padding-left: 80px;
+}
+.section-4 .sectionFour .row .col-3 h5{
+    color: white;
+    padding-left: 80px;
+    font-weight: 100;
+    padding-bottom: 90px;
+}
+.section-4 .sectionFour .row .col-4{
+    width: 50%;
+}
+.section-4 .sectionFour .row .col-4 .row-1{
+    background-color: #FFA6CB;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+}
+.section-4 .sectionFour .row .col-4 .row-1 .text{
+    margin-top: 60px;
+    padding-left: 50px;
+}
+.section-4 .sectionFour .row .col-4 .row-1 .text h5{
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.section-4 .sectionFour .row .col-4 .row-1 .text h3{
+    font-size: 38px;
+}
+.section-4 .sectionFour .row .col-4 .row-1 img{
+    margin-left: 210px;
+}
+.section-4 .sectionFour .row .col-4 .row-2{
+    background-color: #99B6FF;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+}
+.section-4 .sectionFour .row .col-4 .row-2 .text{
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 200px;
+    padding-bottom: 80px;
+}
+.section-4 .sectionFour .row .col-4 .row-2 .text h5{
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.section-4 .sectionFour .row .col-4 .row-2 .text h2{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.section-4 .sectionFour .row .col-4 .row-2 .text button{
+    padding: 10px;
+    text-align: center;
+    margin-left: 35px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+
+
+.section-5{
+    background-color: #F5F5F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-5 .sectionFive{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section-5 .sectionFive .head .row{
+    display: flex;
+}
+.section-5 .sectionFive .head .row .col-5{
+    width: 45%;
+    display: flex;
+    margin-right: 20px;
+}
+.section-5 .sectionFive .head .row .col-5 button{
+    width: 110px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.section-5 .sectionFive .head .row .col-5 button a{
+    text-decoration: none;
+    color: black;
+}
+.section-5 .sectionFive .head .row .col-6{
+    width: 45% ;
+    margin-left: 900px;
+}
+.section-5 .sectionFive .head .row .col-6 button{
+    width: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.section-5 .sectionFive .head .row .col-6 button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.section-5 .sectionFive .product .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section-5 .sectionFive .product .row .col{
+    width: 25%;
+}
+.section-5 .sectionFive .product .row .col .card{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border:1px solid lightgray;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.section-5 .sectionFive .product .row .col .card img{
+    padding-left: 1px;
+}
+.section-5 .sectionFive .product .row .col .card h4{
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.section-5 .sectionFive .product .row .col .card .star{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.section-5 .sectionFive .product .row .col .card button{
+    background-color: lightgreen;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.section-5 .sectionFive .product .row .col .card button a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+
+
+.section-6{
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.section-6 .sectionSix .head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.section-6 .sectionSix .head img{
+    margin-right: 8px;
+}
+.section-6 .sectionSix .head h2{
+    margin-top: 5px
+}
+.section-6 .sectionSix .clientSay{
+    padding-top: 2px;
+}
+.section-6 .sectionSix .clientSay .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.section-6 .sectionSix .clientSay .row .col{
+    width: 33.33%;
+}
+.section-6 .sectionSix .clientSay .row .col .card{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+.section-6 .sectionSix .clientSay .row .col .card p{
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.section-6 .sectionSix .clientSay .row .col .card .avtar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.section-6 .sectionSix .clientSay .row .col .card .avtar span{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.section-6 .sectionSix .clientSay .row .col .card .avtar .drcr{
+    color: gray;
+    font-weight: 200;
+}
+.section-6 .sectionSix .clientSay .row .col .card .avtar span{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+
+
+.section-7{
+    background-color: #BCEEAC;
+}
+.section-7 .sectionSeven .facility .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.section-7 .sectionSeven .facility .row .col{
+    width: 25%;
+    display: flex;
+}
+.section-7 .sectionSeven .facility .row .col .logo{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px;
+    margin-right: 10px;
+}
+.section-7 .sectionSeven .facility .row .col .text{
+    margin-top: 5px;
+}
+.section-7 .sectionSeven .facility .row .col .text h5{
+    font-weight: 500;
+    font-size: 18px;
+}
+.section-7 .sectionSeven .facility .row .col .text h6{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+.section-8{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section-8 .sectionEight .footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section-8 .sectionEight .footer .footer1 .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+.section-8 .sectionEight .footer .footer1 .row .col{
+    width: 50%;
+}
+.section-8 .sectionEight .footer .footer1 .row .col .logo{
+    display: flex;
+}
+.section-8 .sectionEight .footer .footer1 .row .col .logo img{
+    margin-left: 5px;
+    margin-right: 5px
+}
+.section-8 .sectionEight .footer .footer1 .row .col ul{
+    display: flex;
+    margin-left: 120px;
+}
+.section-8 .sectionEight .footer .footer1 .row .col ul li{
+    list-style: none;
+}
+.section-8 .sectionEight .footer .footer1 .row .col ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.section-8 .sectionEight .footer .footer2 .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+.section-8 .sectionEight .footer .footer2 .row .col{
+    width: 25%;
+}
+.section-8 .sectionEight .footer .footer2 .row .col li{
+    list-style: none;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.section-8 .sectionEight .footer .footer2 .row .col li h4{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.section-8 .sectionEight .footer .footer3{
+    padding-bottom: 40px;
+}
+.section-8 .sectionEight .footer .footer3 .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 120px;
+    padding-top: 50px;
+}
+.section-8 .sectionEight .footer .footer3 .row .col{
+    width: 50%;
+}
+.section-8 .sectionEight .footer .footer3 .row .col-7{
+    margin-left: 350px;
+}
